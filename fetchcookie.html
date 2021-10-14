@@ -6,12 +6,22 @@
 
 <button onclick="myFunction()">Try it</button>
 
+<button onclick="myFetchCookie()">Fetch cookie</button>
+
 <p id="demo"></p>
 
 <script>
 function myFunction() {
   var x = document.cookie;
   document.getElementById("demo").innerHTML = "Cookies associated with this document: " + x;
+}
+
+function myFetchCookie() {
+  // GET Request.
+  fetch('https://jacobmossberg.se/setcookie.php')
+      // Handle success
+      .then(response => console.log(response))    //print data to console
+      .catch(err => console.log('Request Failed', err)); // Catch errors
 }
 </script>
 
