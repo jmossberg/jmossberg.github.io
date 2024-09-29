@@ -1,0 +1,71 @@
+---
+layout: post
+title: Public PGP key 
+---
+
+You can send encrypted e-mails to `jacob (at) jacobmossberg.se` using the following public PGP key.
+
+    -----BEGIN PGP PUBLIC KEY BLOCK-----
+    Comment: GPGTools - https://gpgtools.org
+    
+    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
+    =FaZ+
+    -----END PGP PUBLIC KEY BLOCK-----
+

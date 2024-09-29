@@ -1,13 +1,23 @@
-<html><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-</head>
-<body>
-  <h2>Bank ID links</h2>
-  <a href="bankid://">bankid://</a><br>
-  <a href="https://app.bankid.com/?autostarttoken=&amp;redirect=null">https://app.bankid.com/...</a><br>
+---
+layout: mossberg_default
+---
 
-  <h2>Authentication Return URLs</h2>  
-  <a href="lynkco://">lynkco://</a><br>
-  <a href="carsharing://">carsharing://</a><br>
-  <a href="https://example.com/">https://example.com/</a><br>
-</body></html>
+<div class="home">
+
+<p>My name is Jacob Mossberg. I run a company that offer services within mobile app and embedded software development. I live in Gothenburg, Sweden. More information can be found on <a href="http://se.linkedin.com/in/jacobmossberg">LinkedIn</a>.</p>
+
+<p><img src="assets/jacob.jpg"></p>
+
+<h1 class="page-heading">Articles</h1>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <a class="post-link-small" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+</div>
