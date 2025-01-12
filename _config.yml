@@ -4,7 +4,6 @@ email: jacob (at sign) jacobmossberg.se
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jmossberg.github.io" # the base hostname & protocol for your site
-twitter_username: jcmossberg 
 github_username:  jmossberg
 
 # Build settings
